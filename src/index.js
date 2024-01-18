@@ -1,1 +1,7 @@
-console.log("Nom Nom Noms");
+import { initialPageLoad } from './initialPageLoad';
+
+function initializePage(){
+    initialPageLoad();
+}
+
+initializePage();
