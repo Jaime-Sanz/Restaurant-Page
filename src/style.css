@@ -1,14 +1,104 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: 'Bangers', system-ui;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 #content {
     display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #84A4FC;
 }
 
 #navBarMain {
-    height: 125px;
+    display: flex;
+    justify-content: center;
+    height: 65px;
     width: 100%;
+    background-color: #1D2023;
+}
+
+.navTabs{
+    align-self: center;
+    margin: 20px;
+    color: #CCD0D8;
+    font-size: 2.0em;
+}
+
+.navTabs a {
+    margin: 20px;
+}
+
+.navTabs a:hover{
+    color:#84A4FC;
+}
+
+#hpSquare {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 90%;
+    margin: 20px;
     background-color: black;
+    border-radius: 10px;
+}
+
+#hpImage {
+    margin: 5px;
+    align-self: center;
+    width: 50%;
+    height: 50%;
+    background-position: center;
+    border-radius: 10px;
+    background-image: url(/assets/images/87469110-funny-dog-in-chef-s-hat-with-cake-and-wire-whisk-isolated-on-white-background.jpg);
+}
+
+#hpText {
+    font-size: 1.4em;
+    color: white;
+    margin: 20px;
+}
+
+
+#menuSquareBox{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 20px;
+    width: 40%;
+    height: 90%;
+}
+
+#menuSquareBox h1{
+    margin-top: 30px;
+    font-size: 2.4em;
+    align-self: center;
+}
+
+#menuSquareBox h3{
+    align-self: center;
+    font-size: 1.6em;
+    margin: 10px;
+}
+
+#menuList {
+    align-self: flex-start;
+    margin: 20px;
+    font-size: 1.4em;
+}
+
+#menuList div{
+    margin: 10px;
 }
