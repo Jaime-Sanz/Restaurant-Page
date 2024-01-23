@@ -17,6 +17,8 @@ body {
     width: 100%;
     display: flex;
     background-color: #84A4FC;
+    background-image: url(/assets/images/0z8p_qcc7_220311.jpg);
+    background-size: 125%;
 }
 
 #navBarMain {
@@ -30,16 +32,17 @@ body {
 .navTabs{
     align-self: center;
     margin: 20px;
-    color: #CCD0D8;
+    color: rgba(255,255,255,255);
     font-size: 2.0em;
 }
 
 .navTabs a {
     margin: 20px;
+   
 }
 
 .navTabs a:hover{
-    color:#84A4FC;
+    color: #CCD0D8;
 }
 
 #hpSquare {
@@ -50,7 +53,8 @@ body {
     width: 30%;
     height: 90%;
     margin: 20px;
-    background-color: black;
+    background-color: rgba(28,155,64,255);
+    border: 2px solid black;
     border-radius: 10px;
 }
 
@@ -61,6 +65,7 @@ body {
     height: 50%;
     background-position: center;
     border-radius: 10px;
+    border: 2px solid black;
     background-image: url(/assets/images/87469110-funny-dog-in-chef-s-hat-with-cake-and-wire-whisk-isolated-on-white-background.jpg);
 }
 
@@ -68,6 +73,7 @@ body {
     font-size: 1.4em;
     color: white;
     margin: 20px;
+    -webkit-text-stroke: 1px rgb(70, 51, 51);
 }
 
 
@@ -75,22 +81,27 @@ body {
     display: flex;
     align-self: center;
     flex-direction: column;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 20px;
     width: 40%;
     height: 90%;
+    background-color: bisque;
 }
 
 #menuSquareBox h1{
     margin-top: 30px;
     font-size: 2.4em;
     align-self: center;
+    color: rgb(255, 18, 18);
+    -webkit-text-stroke: 1px rgb(147, 10, 10);
 }
 
 #menuSquareBox h3{
     align-self: center;
     font-size: 1.6em;
     margin: 10px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(70, 51, 51);
 }
 
 #menuList {
@@ -100,7 +111,9 @@ body {
 }
 
 #menuList div{
+    color: white;
     margin: 10px;
+    -webkit-text-stroke: 1px rgb(70, 51, 51);
 }
 
 #docSquare{
@@ -112,12 +125,14 @@ body {
     height: 60%;
     border-radius: 30px;
     width: 50%;
+    background-color: bisque;
 }
 
 #pugPhoneImage{
     width: 100%;
     height: 85%;
     border-radius: 30px;
+    border: 2px solid black;
 }
 
 #panelLeft{
@@ -132,11 +147,14 @@ body {
     justify-content: center;
     align-self: center;
     margin: 10px;
+    border: 2px solid black;
 }
 
 #pugText {
     margin: 5px;
     font-size: 1.4em;
+    color: white;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 #formContact{
@@ -147,4 +165,6 @@ body {
 
 #formContact input, label {
     margin: 2px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
