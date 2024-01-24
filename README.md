@@ -12,10 +12,6 @@ For those who would like to run the application and/or edit its source code on t
 # Usage
 - Make food orders for your furry friend. 
 
-> Note
->
->> [A live deployment of the game is available on GitHub pages](https://jaime-sanz.github.io/Restaurant-Page/)
-
 # Built Using
 > [![My Skills](https://skillicons.dev/icons?i=js,html,css,vscode,discord)](https://skillicons.dev)
 
